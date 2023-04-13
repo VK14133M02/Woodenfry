@@ -1,0 +1,49 @@
+.homePage_section_title {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+  color: #9d6a37;
+  margin: 50px 0px 10px;
+}
+
+.mostWanted_category {
+  text-align: left;
+  color: #616060;
+  font-size: 1.05rem;
+  line-height: 1.5rem;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.mostWanted_description {
+  text-align: left;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: #848484;
+}
+
+#instagram_official {
+  color: rgb(56, 55, 55);
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 5px;
+}
+
+#instagram_id {
+  color: rgb(56, 55, 55);
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.8;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 5px;
+}
