@@ -1,0 +1,62 @@
+#nav_mid li {
+  text-transform: uppercase;
+  font-family: Manrope, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+
+#nav_mid li:hover {
+  cursor: pointer;
+  color: #ff7035;
+}
+
+#nav_route {
+  width: 80%;
+  margin: auto;
+}
+
+#nav_route li {
+  color: white;
+  padding: 10px 0;
+  font-family: Poppins, sans-serif;
+  font-size: 0.9rem;
+}
+
+#nav_route li:hover {
+  border-bottom: 3px solid #ff7035;
+}
+
+#navbar_dropdown {
+  width: 95%;
+  margin: auto;
+  background-color: white;
+  position: absolute;
+  left: 2.5%;
+}
+
+.category_heading {
+  font-family: Poppins, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: #9d6a37;
+  text-align: left;
+  padding-top: 5px;
+}
+
+#navbar_dropdown li {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: #5b5b5b;
+  line-height: 20px;
+}
+
+#navbar_dropdown li:hover {
+  color: #9d6a37;
+}
+
+@media screen and (max-width: 780px) {
+  #LaptopScreen {
+    display: none;
+  }
+}
