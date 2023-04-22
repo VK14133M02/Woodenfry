@@ -55,8 +55,34 @@
   color: #9d6a37;
 }
 
+.dropdown_sticky {
+  position: sticky;
+  top: 0;
+}
+
+#small_navbar {
+  display: none;
+}
+
 @media screen and (max-width: 780px) {
   #LaptopScreen {
     display: none;
+  }
+
+  #small_navbar {
+    display: block;
+  }
+
+  #small_nav_logo {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 15px;
+  }
+
+  .small_nav_category {
+    font-size: 0.7rem;
+    line-height: 1rem;
+    color: #525252;
+    font-weight: 600;
+    font-family: Manrope, sans-serif;
   }
 }

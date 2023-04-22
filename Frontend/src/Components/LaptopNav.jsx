@@ -115,7 +115,7 @@ const LaptopNav = () => {
       </Box>
 
       {/* Dropdown */}
-      {nav && <Dropdown />}
+      <Box className="dropdown_sticky">{nav && <Dropdown />}</Box>
     </Box>
   );
 };
