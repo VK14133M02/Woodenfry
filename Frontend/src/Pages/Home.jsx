@@ -6,10 +6,12 @@ import poster from "../woodenfry_home_image/top_poster.jpg";
 import { Link } from "react-router-dom";
 import CarouselImage from "../Components/Carousel";
 import Footer from "../Components/Footer";
+import Navbar from "../Components/Navbar";
 
 const Home = () => {
   return (
     <Box>
+      <Navbar />
       <Box width={"90%"} margin={"auto"}>
         <Box>
           <Image src={poster} alt="poster" width={"100%"} />
